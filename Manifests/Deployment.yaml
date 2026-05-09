@@ -16,7 +16,7 @@ spec:
         - name: docker-creds1
       containers:
         - name: bookstore
-          image: gangadhariy/onlinebookstore:20
+          image: gangadhariy/onlinebookstore:21
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
